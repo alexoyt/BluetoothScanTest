@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BluetoothScanTest</string>
+    <string name="device_number">Test Number:</string>
+    <string name="update_device">Update Devices:</string>
+</resources>

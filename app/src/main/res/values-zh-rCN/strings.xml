@@ -1,0 +1,4 @@
+<resources>
+    <string name="device_number">测试设备数：</string>
+    <string name="update_device">更新设备：</string>
+</resources>

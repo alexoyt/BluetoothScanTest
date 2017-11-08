@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gionee.ouyt.bluetooth.bluetoothscantest.BluetoothTestActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/edit_device"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/update_device"
+            />
+        <Switch
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/update_device"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/start_bluetooth_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/edit_device"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/device_number"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:maxLength="4"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:id="@+id/device_number"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/start_bluetooth_btn"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
